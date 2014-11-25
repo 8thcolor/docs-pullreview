@@ -1,0 +1,8 @@
+title: Pullreview Documentations
+email: support@pullreview.com
+description: "PullReview Documentations."
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title

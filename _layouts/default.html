@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="{{ page.bodyclass }}">
+
+  <div id="navbar">
+    <div class="site">
+      <a id="logo" href="https://www.pullreview.com?utm_source=docs.pullreview.com&utm_medium=banner&utm_campaign=docs">
+        <img src="https://www.pullreview.com/assets/logo.png" alt="PullReview">
+      </a>
+      <div class="header">
+        <ul>
+          <li><a class="extra first" href="{{ site.baseurl }}/">Blog</a></li>
+          <li><a class="extra" href="https://www.pullreview.com/site/hire_us?utm_source=docs.pullreview.com&utm_medium=banner&utm_campaign=docs">Hire Us</a></li>
+          <li><a class="extra" href="http://www.pullreview.com?utm_source=docs.pullreview.com&utm_medium=banner&utm_campaign=docs">PullReview</a></li>
+          <li><a class="extra" href="https://www.pullreview.com/site/contact"><i class="icon-envelope-alt"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="site page-content">
+  {{ content }}
+  </div>
+
+  <div class="footer">
+    <div class="site">
+      <div class="copyright"
+        <p>Copyright&nbsp;©&nbsp;2014&nbsp;8th&nbsp;Color
+          <br />
+          Made in Brussels with pride <img src="https://www.pullreview.com/assets/iris.png" alt="Made in Brussels">
+        </p>
+      </div>
+      <div class="footer-menu">
+        <ul>
+          <li><a class="extra" href="/">Blog</a></li>
+          <li><a class="extra" href="http://www.pullreview.com">Pullreview</a></li>
+          <li><a class="extra" href="https://www.pullreview.com/site/contact"><i class="icon-envelope-alt"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
