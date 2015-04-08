@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Welcome</title>
+  <title>What does PullReview do and how does it work?</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="PullReview Documentations.">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/what-does-pullreview-do-and-how-does-it-work">
 
   <!-- syntax highlighting CSS -->
   <link rel="stylesheet" href="/css/syntax.css">
@@ -38,65 +38,42 @@
   </div>
 
   <div class="site page-content">
-  <h1 id="pullreview-documentation">PullReview Documentation</h1>
+  <h1 id="what-does-pullreview-do-and-how-does-it-work">What does PullReview do and how does it work?</h1>
 
-<p>Welcome to the documentation of PullReview, an automated code review service.
-There’s a good chance your question about using it will be answered here. If you
-have any questions or meet any issues, you can get help by clicking on
-<a href="https://www.pullreview.com/site/contact"><i class="icon-envelope-alt"></i></a> or
-by sending an email to <a href="support@pullreview.com">the support address</a>.</p>
+<p>PullReview retrieves your code from your repository at GitHub. Then, for each
+branch, it reviews your code modifications in order to detect defects,
+vulnerabilities, and other issues such as poor readability. Your code doesn’t
+need to be run as for the test.</p>
 
-<p>We welcome any issues or PullRequests on the
-<a href="https://github.com/8thcolor/docs-pullreview">website project</a>.</p>
+<p>During the analyses, PullReview checks the code according to about 400 rules.
+Each rule allows detecting one specific kind of issue. The rules are classed
+into 8 categories:</p>
 
-<h2 id="check-out-the-docs">Check out the docs!</h2>
+<p><img src="/assets/category-icons.png" alt="Category Icons" /></p>
 
-<div id="search">
-  <form action="/search" method="get">
-    <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off" />
-  </form>
-</div>
+<p>, from left to right, code smell, duplication, security, complexity, design,
+style, documentation, and test.</p>
 
-<section id="search-results" style="display: none;"> 
-  <header><h3>Results</h3></header>
-  <div class="entries">
-  </div>
-</section>
+<p>After having detected issues in your branch, PullReview reports them to you into
+a code review. It mainly consists in an ordered list of possible improvements.
+They are ordered by criticity. The most important improvements are on the top of
+the list.</p>
 
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article>
-      <h3>
-        <a href="{{url}}">{{title}}</a>
-      </h3>
-    </article>
-  {{/entries}}
-</script>
+<p><img src="/assets/improvement.png" alt="Improvement" /></p>
 
-<h2 id="table-of-content">Table of Content</h2>
+<p>One improvement concerns detected issues of the same kind. It will tell you
+where the issues have been detected, why they should be considered as issues,
+and how you could fix them.</p>
 
-<ul>
-  <li>
-    <p><a href="/what-does-pullreview-do-and-how-does-it-work">What does PullReview do and how does it work?</a></p>
-  </li>
-  <li>
-    <p><a href="/how-to-review-my-repo">How to review my repo?</a></p>
-  </li>
-</ul>
+<p>As we said earlier, PullReview will generate a code review for every branches
+you have on your repository. Each time you’ll push new commits on a branch,
+PullReview will update the corresponding code review. When it does that it will
+also detect what you’ve fixed since the previous review.</p>
 
-<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-
-<script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template'  // selector for Mustache.js template
-    });
-  });
-</script>
-
+<p>PullReview is then very close to the feature branch development model. It
+reports you only what concerns your current work, i.e. the modifications you’ve
+made on a branch. In the case of the integration branch (also called the default
+branch and usually named master), PullReview reviews the whole code base.</p>
 
   </div>
 
