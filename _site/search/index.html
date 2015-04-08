@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Welcome</title>
+  <title>Search</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="PullReview Documentations.">
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/search/">
 
   <!-- syntax highlighting CSS -->
   <link rel="stylesheet" href="/css/syntax.css">
@@ -38,27 +38,17 @@
   </div>
 
   <div class="site page-content">
-  <h1 id="pullreview-documentation">PullReview Documentation</h1>
+  <h1>Search All Documentations</h1>
 
-<p>Welcome to the documentation of PullReview, an automated code review service.
-There’s a good chance your question about using it will be answered here. If you
-have any questions or meet any issues, you can get help by clicking on
-<a href="https://www.pullreview.com/site/contact"><i class="icon-envelope-alt"></i></a> or
-by sending an email to <a href="support@pullreview.com">the support address</a>.</p>
+<p>
+  <div id="search">
+    <form action="/search" method="get">
+      <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off" />
+    </form>
+  </div>
+</p>
 
-<p>We welcome any issues or PullRequests on the
-<a href="https://github.com/8thcolor/docs-pullreview">website project</a>.</p>
-
-<h2 id="check-out-the-docs">Check out the docs!</h2>
-
-<div id="search">
-  <form action="/search" method="get">
-    <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off" />
-  </form>
-</div>
-
-<section id="search-results" style="display: none;"> 
-  <header><h3>Results</h3></header>
+<section id="search-results" style="display: none;">
   <div class="entries">
   </div>
 </section>
@@ -72,12 +62,6 @@ by sending an email to <a href="support@pullreview.com">the support address</a>.
     </article>
   {{/entries}}
 </script>
-
-<h2 id="table-of-content">Table of Content</h2>
-
-<ul>
-  <li><a href="/how-to-review-my-repo">How to review my repo?</a></li>
-</ul>
 
 <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
 
