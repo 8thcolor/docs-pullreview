@@ -6,3 +6,6 @@ description: "PullReview Documentations."
 markdown: kramdown
 highlighter: pygments
 permalink: /:title
+
+gems:
+  - jekyll-sitemap
