@@ -5,10 +5,10 @@ title: Which tools PullReview is based on?
 
 # Which tools PullReview is based on?
 
-* [Excellent]
-* [Rubocop]
-* [Flay]
-* [Brakeman]
-* [Rails Best Practices]
-* [Yard]
+* [Excellent](https://github.com/simplabs/excellent)
+* [Rubocop](https://github.com/bbatsov/rubocop)
+* [Flay](https://github.com/seattlerb/flay)
+* [Brakeman](https://github.com/presidentbeef/brakeman)
+* [Rails Best Practices](https://github.com/railsbp/rails_best_practices)
+* [Yard](https://github.com/lsegal/yard)
 * Our own rules and checks (e.g. test coverage)

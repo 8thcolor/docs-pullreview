@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>What happens when I push new commits on a branch?</title>
+  <title>Why don't I see any reviews for my last changes?</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="PullReview Documentations.">
-  <link rel="canonical" href="/what-happens-when-i-push-new-commits-on-a-branch">
+  <link rel="canonical" href="/why-don't-i-see-any-reviews-for-my-last-changes">
 
   <!-- syntax highlighting CSS -->
   <link rel="stylesheet" href="/css/syntax.css">
@@ -38,12 +38,19 @@
   </div>
 
   <div class="site page-content">
-  <h1 id="what-happens-when-i-push-new-commits-on-a-branch">What happens when I push new commits on a branch?</h1>
+  <h1 id="why-dont-i-see-any-reviews-for-my-last-changes">Why don’t I see any reviews for my last changes?</h1>
 
-<p>If the webhook is correctly notified, PullReview will be notified by the Forge.
-It will then take a look at the new changes, find the new problems, and track
-which problems has been fixed. Finally, it will update its review and notify
-you according your preferences.</p>
+<p>There are several options:</p>
+
+<ul>
+  <li>Your changes didn’t contain
+<a href="/which-programming-language-can-be-reviewed">any code that can be reviewed</a>.</li>
+  <li>You’ve commited them with an email not known from GitHub (see also
+<a href="/how-does-pullreview-recognize-my-contributions">How does PullReview recognize my contributions?</a>.</li>
+  <li>There are nothing to say your changes.</li>
+  <li>The code cannot be retrieved due to a bad or absent deploy key.</li>
+  <li>PullReview wasn’t notified of the new changes due to a bad or absent webhook.</li>
+</ul>
 
   </div>
 

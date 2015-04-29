@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What does PullReview review?
---- 
+---
 
 # What does PullReview review?
 
@@ -17,10 +17,12 @@ branch. The actions to fix them are shown in a second list _Seize the
 opportunity to make the code base better_ should you want to do some clean-up
 work.
 
-The integration branch (as defined on GitHub as the repository's "default
-branch") is treated differently, as there is no starting point to compare from.
-In this situation, we simply show all existing problems on that branch.
+The integration branch (as defined on GitHub as the repository's
+[default branch](https://help.github.com/articles/setting-the-default-branch/))
+is treated differently, as there is no starting point to compare from. In this
+situation, we simply show all existing problems on that branch.
 
-PullReview does review only Ruby, Rails, and Javascript code.
+See also:
 
-PullReview can connect to GitHub, BitBucket, GitLab, and Stash repositories.
+* [Which forge can PullReview connect to?]({% post_url 2015-04-29-which-forge-can-pullreview-connect-to %})
+* [Which programming language can be reviewed?]({% post_url 2015-04-29-which-programming-language-can-be-reviewed %})
