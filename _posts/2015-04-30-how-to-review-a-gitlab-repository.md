@@ -3,7 +3,9 @@ layout: default
 title: How to review a GitLab repository?
 ---
 
- Here are the steps to follow to add a GitLab repository:
+# How to review a GitLab repository?
+
+Here are the steps to follow to add a GitLab repository:
 
 * Browse to the [repositories page](https://www.pullreview.com/settings/repositories)
 * Click on "Add a repository" (button on top right of the list)
