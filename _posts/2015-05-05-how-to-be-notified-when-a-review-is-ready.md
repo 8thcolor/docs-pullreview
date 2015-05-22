@@ -42,7 +42,8 @@ Second, change the settings of the PullReview webhook as following:
 * check the Pull Request box (Pull Request opened, closed, assigned, labeled, or synchronized.),
 * click on *Update* webhook button.
 
-Finally, enable the PullRequest notification via the PullReview configuration
+Finally, enable the PullRequest notification via the
+[PullReview configuration]({% post_url 2015-05-22-how-can-i-apply-custom-setup-for-a-give %})
 file `.pullreview.yml`:
 
 ```
