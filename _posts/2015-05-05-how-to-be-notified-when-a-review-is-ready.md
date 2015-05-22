@@ -64,6 +64,6 @@ When clicking on the badge or the links, you'll browse the full code review.
 
 If you just want the badge, use the option `enabled`.
 
-The configuration file `.pullreview.yml` has to be saved in the root of the
-repository and committed on the default branch (usually named `master`). Don't
-forget to push the commit to GitHub.
+See also:
+
+* [How can I apply custom setup for a given repository?]({% post_url 2015-05-22-how-can-i-apply-custom-setup-for-a-give %})
