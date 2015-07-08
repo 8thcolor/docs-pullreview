@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How to review my repo?
---- 
-
-# How to review my repo?
+---
 
 1. Go to the [repository page](https://www.pullreview.com/settings/repositories).
 2. Find in the list, the repository you want to pull reviews on.

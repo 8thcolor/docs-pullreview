@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How to can I disable a specific rule?
 ---
-
-# How to can I disable a specific rule?
 
 You can disable a specific rule via the
 [PullReview configuration file]({% post_url 2015-05-22-how-can-i-apply-custom-setup-for-a-give %})

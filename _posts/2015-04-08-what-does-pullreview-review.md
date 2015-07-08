@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: What does PullReview review?
 ---
-
-# What does PullReview review?
 
 It only considers a branch that you've contributed at least once. It compares
 the situation between the start of the branch and its head. It then looks into

@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How to integrate with a Continuous Integration Service?
 ---
-
-# How to integrate PullReview with a CI such as Semaphore, CircleCI, TravisCI, CodeShip, Jenkins?
 
 With the [Gem pullreview-coverage](https://github.com/8thcolor/pullreview-coverage/), you can retrieve your Ruby test coverage into PullReview.
 

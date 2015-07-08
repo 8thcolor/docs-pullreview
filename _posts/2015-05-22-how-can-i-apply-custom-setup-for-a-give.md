@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How can I apply custom setup for a given repository?
 ---
-
-# How can I apply custom setup for a given repository?
 
 You can appy custom setup on a repository by dropping the YAML file
 `.pullreview.yml` into the root of that repository, and commited on its default

@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How to review a GitLab repository?
 ---
-
-# How to review a GitLab repository?
 
 Here are the steps to follow to add a GitLab repository:
 

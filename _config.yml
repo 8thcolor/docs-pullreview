@@ -3,10 +3,15 @@ email: support@pullreview.com
 description: "PullReview Documentations."
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables", "fenced_code_blocks"]
 highlighter: pygments
 permalink: /:title
 
 gems:
   - jekyll-sitemap
   - jekyll-lunr-js-search
+
+lunr_search:
+  js_dir: "js"

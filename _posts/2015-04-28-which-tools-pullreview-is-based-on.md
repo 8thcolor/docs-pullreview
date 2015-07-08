@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: Which tools PullReview is based on?
 ---
-
-# Which tools PullReview is based on?
 
 * [Excellent](https://github.com/simplabs/excellent)
 * [Rubocop](https://github.com/bbatsov/rubocop)

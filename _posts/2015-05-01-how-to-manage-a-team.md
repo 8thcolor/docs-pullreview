@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How to manage a team?
 ---
-
-# How to manage a team?
 
 If you are on a team plan and you are the team owner, you will be able to manage your team:
 

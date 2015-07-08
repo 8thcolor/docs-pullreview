@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: What does PullReview do and how does it work?
---- 
-
-# What does PullReview do and how does it work?
+---
 
 PullReview retrieves your code from your repository at GitHub. Then, for each
 branch, it reviews your code modifications in order to detect defects,

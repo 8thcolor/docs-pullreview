@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How to be notified when a review is ready?
 ---
-
-# How to be notified when a review is ready?
 
 There are different notification means:
 

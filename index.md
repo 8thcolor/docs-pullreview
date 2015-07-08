@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Welcome
---- 
-
+---
 
 # PullReview Documentation
 
@@ -23,7 +22,7 @@ We welcome any issues or PullRequests on the
   </form>
 </div>
 
-<section id="search-results" style="display: none;"> 
+<section id="search-results" style="display: none;">
   <header><h3>Results</h3></header>
   <div class="entries">
   </div>

@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: Why don't I see any reviews for my last changes?
 ---
-
-# Why don't I see any reviews for my last changes?
 
 There are several options:
 

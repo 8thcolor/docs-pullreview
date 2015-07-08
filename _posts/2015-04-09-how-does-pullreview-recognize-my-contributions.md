@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: post
 title: How does PullReview recognize my contributions?
---- 
-
-# How does PullReview recognize my contributions?
+---
 
 PullReview identifies the author by his/her email mentioned in commits. If that
 email is known to GitHub, PullReview is able to make the link between you and
