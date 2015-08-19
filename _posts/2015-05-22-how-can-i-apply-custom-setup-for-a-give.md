@@ -11,3 +11,4 @@ See also:
 
 * [How to be notified when a review is ready?]({% post_url 2015-05-05-how-to-be-notified-when-a-review-is-ready %})
 * [How to can I disable a specific rule?]({% post_url 2015-05-22-how-to-can-i-disable-a-specific-rule%})
+* [How to get also reviewed my Javascript?]({% post_url 2015-08-19-how-to-get-also-reviewed-my-javascript%})
