@@ -64,10 +64,10 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[*formatters]
 
 There are two ways to find your PullReview Token.
 
-1/ In any code review, by clicking on the link *Badge urls*, you uncollapse the link for your badge. The
-token in that link is the one you're looking for.
+1. For private repo, in any code review, by clicking on the link *Badge urls*, you uncollapse the link for your badge.
+The token in that link is the one you're looking for.
 
-2/ In the page where you can set up your repositories, aside the repositories under review, you'll find a
+2. In the page where you can set up your repositories, aside the repositories under review, you'll find a
 little list icon. By clicking on the icon, you make visible a list of documentation related to your
 repository. Click on *How to enable test coverage for this repository*. You'll then browse a documentation
 similar to this one but in which your token is displayed in the section "Setup in your CI build".
