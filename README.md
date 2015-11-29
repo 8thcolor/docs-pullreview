@@ -1,4 +1,4 @@
 docs-pullreview
 ===============
 
-Public Documentations for PullReview
+Public Documentation for PullReview
