@@ -3,7 +3,7 @@ layout: default
 title: Search
 --- 
 
-<h1>Search All Documentations</h1>
+<h1>Search All Documentation</h1>
 
 <p>
   <div id="search">
