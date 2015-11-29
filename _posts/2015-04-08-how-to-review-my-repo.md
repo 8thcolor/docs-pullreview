@@ -9,11 +9,11 @@ title: How to review my repo?
 4. Return to the [home page](https://www.pullreview.com/) and wait for your
    reviews by refreshing the page.
 
-In the case of private repository, the one click setup only works if:
+In the case of a private repository, the one click setup only works if:
 
 * you have granted PullReview the necessary rights, and
-* you have the admin rights on the repository.
+* you have admin rights on the repository.
 
-If you don't have the admin rights, PullReview will give you the instruction to add a deploy key and a webhook on your repository. You can then ask the admin to do it.
+If you don't have admin rights, PullReview will give you the instructions needed to add a deploy key and a webhook on your repository. You can then ask the admin to do it for you.
 
-If you didn't authorize PullReview to retrieve the list of private repositories and to set it up for you, you will have to first add manually the repository to the list, then follow the previous steps.
+If you didn't authorize PullReview to retrieve the list of private repositories and to set it up for you, first add the repository to the list manually, then follow the previous steps.
