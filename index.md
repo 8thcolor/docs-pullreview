@@ -40,7 +40,7 @@ We welcome any issues or PullRequests on the
 </script>
 {% endraw %}
 
-## Table of Content
+## Table of Contents
 
 {% for post in site.posts %}
 * [{{ post.title }}]({{ post.url }})
