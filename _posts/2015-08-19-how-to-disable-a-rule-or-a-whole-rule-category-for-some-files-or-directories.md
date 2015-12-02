@@ -15,7 +15,7 @@ rules:
 
 where:
 
-* `<category_id>` is one of the possible rule category: `code_smell`,
+* `<category_id>` is one of the possible rule categories: `code_smell`,
   `copy_paste`, `complexity`, `design`, `style`, ` documentation`,
   `test_infection`,
 * `<rule_id>` is one of the possible rule listed in that
