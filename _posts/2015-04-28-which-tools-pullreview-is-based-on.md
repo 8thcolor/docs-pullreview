@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Which tools PullReview is based on?
+title: Which tools are PullReview based on?
 ---
 
 * [Excellent](https://github.com/simplabs/excellent)
