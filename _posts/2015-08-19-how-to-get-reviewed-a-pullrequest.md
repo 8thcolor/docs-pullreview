@@ -1,17 +1,17 @@
 ---
 layout: post
-title: How to get reviewed a PullRequest?
+title: How to get a PullRequest reviewed?
 ---
 
-When you create a PullRequest, it always about a branch. The branch could be one
-of your repo, or one from a fork.
+When you create a PullRequest, it always about a branch. The branch could be on one
+of your own repos, or one from a fork.
 
 By default, PullReview can detect when a PullRequest is associated to a branch
 when you push a commit. However, it cannot detect when the PullRequest is
 created. As consequence, it cannot detect a PullRequest from a fork as they do
 not correspond to a branch of your repository.
 
-In order to get reviewed any PullRequest from a fork or not, you need to enable
+In order to have  reviews on PullRequests from a fork or not, you need to enable the
 PullRequest event on the PullReview webhook as following:
 
 1. browse `https://github.com/<account>/<repo>/settings/hooks
@@ -23,4 +23,4 @@ PullRequest event on the PullReview webhook as following:
 See also:
 
 * [How to be notified when a review is ready]({% post_url 2015-05-05-how-to-be-notified-when-a-review-is-ready %})
-  to learn how to get notification directly in your PullRequest.
+  to learn how to get notifications directly in your PullRequest.
